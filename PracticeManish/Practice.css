@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(160, 125, 192);
+}
+  h1 {
+    color: black;
+    text-align: center;
+    text-shadow: 2px 3px violet;
+  }
+  .form{
+    text-align: center;
+    width: 320px;
+    height: 360px;
+    background-color: white;
+    outline-style: double;
+    outline-width: medium;
+    outline-color: red;
+    border: .5rem solid black;
+    margin: 20px ;
+    padding: 50px;
+  }
+  p{
+    background-color: gray;
+    color: yellow;
+    border: 1px solid black;
+    outline: px solid red;
+    outline-offset: 15px;
+    text-align: justify;
+    text-decoration-line: underline;
+    text-decoration-color: sienna;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 20%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+  }
+  input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+  
